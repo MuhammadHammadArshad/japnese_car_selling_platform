@@ -1,75 +1,55 @@
-# Nuxt Minimal Starter
+A full-featured online car marketplace built with Nuxt 3, running in Japan. This platform allows users to buy and sell new & used cars, as well as auto parts, with a complete e-commerce experience.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+🌟 Key Features
 
-## Setup
+User Authentication: Secure login system with cookie-based sessions.
 
-Make sure to install dependencies:
+Advanced Car Search: Filter by make, model, price, year, and more.
 
-```bash
-# npm
+Autocomplete Search: Quick and intelligent suggestions while typing.
+
+Favorites & Saved Searches: Users can add cars to favorites and save search criteria for later.
+
+Add New Car Listing: Authenticated sellers can add new cars or auto parts with images and descriptions.
+
+Fully Responsive: Works seamlessly on desktop, tablet, and mobile.
+
+Complete Marketplace Functionality: Just like a modern online car e-commerce platform.
+
+🚀 Quick Start
+
+Clone the repository and install dependencies:
+
 npm install
 
-# pnpm
-pnpm install
 
-# yarn
-yarn install
+Start the development server:
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
 
-# yarn
-yarn dev
+Your project will be running locally at:
 
-# bun
-bun run dev
-```
+http://localhost:3000
 
-## Production
+🛠 Technology Stack
 
-Build the application for production:
+Nuxt 3 – Framework for server-side rendered Vue applications
 
-```bash
-# npm
-npm run build
+Vue 3 – Frontend interactivity
 
-# pnpm
-pnpm build
+Cookie-based Authentication – Secure login sessions
 
-# yarn
-yarn build
+Advanced Filtering & Autocomplete – Smooth and fast user experience
 
-# bun
-bun run build
-```
+🎯 Benefits for Users & Clients
 
-Locally preview production build:
+Easy Car Buying & Selling: Full marketplace functionality in one platform.
 
-```bash
-# npm
-npm run preview
+Personalized Experience: Save favorite cars and searches for future use.
 
-# pnpm
-pnpm preview
+Fast & Secure: Advanced authentication and cookie-based sessions for security.
 
-# yarn
-yarn preview
+Modern UI/UX: Optimized for all devices with responsive design.
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Expandable: Supports adding new cars, auto parts, and future e-commerce features.
